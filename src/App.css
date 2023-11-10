@@ -30,7 +30,7 @@ ul {
   justify-content: space-around;
 }
 
-body {
+.body {
   font-family: Arial, sans-serif;
   background-color: rgb(4, 27, 27);
   padding: 20px;
@@ -48,6 +48,13 @@ footer {
 }
 
 .first-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.body-content {
   display: flex;
   flex-direction: row;
   align-items: center;
